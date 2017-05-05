@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F656278C-13F4-4521-AA9C-63CDE6B2287C}</ProjectGuid>
+    <ProjectGuid>{94364FA1-6328-7F0B-979B-C88D51642486}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -46,15 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleMaps\Scripts\GoogleMap.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\ConditionalGet.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\ForceProxyExample.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\KeepAliveExample.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\RequestBenchmark.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\UniWebExamples.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\WebsocketClientEcho.cs" />
-     <Compile Include="Assets\UniWeb-Free\Examples\WebsocketClientExample.cs" />
-     <Compile Include="Assets\bob.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\FollowTarget.cs" />
      <None Include="Assets\UniWeb-Free\FAQ.txt" />
      <None Include="Assets\UniWeb-Free\README.txt" />
      <None Include="Assets\GoogleMaps\README.txt" />
@@ -85,10 +77,6 @@
  <Reference Include="UniWeb-Free">
  <HintPath>/Users/alee/GitHub/Mission-Complete-LA/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{94364FA1-6328-7F0B-979B-C88D51642486}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

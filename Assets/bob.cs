@@ -20,7 +20,7 @@ public class bob : MonoBehaviour {
 
 		// Only allows jump on floor
 		if (rb.position.y <= 0.5) 
-			jSpeed = Input.GetAxis ("Jump") * Speed * 100;
+			jSpeed = Input.GetAxis ("Jump") * Speed * 30;
 
 		// Pushes rb
 		rb.AddForce (new Vector3 (hSpeed, jSpeed, vSpeed));
