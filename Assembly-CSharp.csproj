@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FC9411EB-1B12-4154-0219-EEA7CBD09863}</ProjectGuid>
+    <ProjectGuid>{F656278C-13F4-4521-AA9C-63CDE6B2287C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,7 +59,7 @@
      <None Include="Assets\UniWeb-Free\README.txt" />
      <None Include="Assets\GoogleMaps\README.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/kyu/New Unity Project 1/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/alee/GitHub/Mission-Complete-LA/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
@@ -83,7 +83,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="UniWeb-Free">
- <HintPath>/Users/kyu/New Unity Project 1/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
+ <HintPath>/Users/alee/GitHub/Mission-Complete-LA/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
